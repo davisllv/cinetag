@@ -12,7 +12,7 @@ const Header = () => {
       <nav>
         <HeaderLink path={"./"}>Home</HeaderLink>
 
-        <HeaderLink path={"./Favorites"}>Favoritos</HeaderLink>
+        <HeaderLink path={"./favorites"}>Favoritos</HeaderLink>
       </nav>
     </header>
   );
