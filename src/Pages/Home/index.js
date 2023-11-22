@@ -1,3 +1,4 @@
+import Banner from "components/Banner";
 import Footer from "components/Footer";
 import Header from "components/Header";
 
@@ -5,7 +6,7 @@ const Inicio = () => {
   return (
     <>
       <Header />
-      <h1>Olá Mundo Estou em uma Página Nova</h1>
+      <Banner bannerPath={"home"} />
       <Footer />
     </>
   );
